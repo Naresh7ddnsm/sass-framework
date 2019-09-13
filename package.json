@@ -4,14 +4,9 @@
   "description": "Simple Sass Compiler",
   "main": "index.js",
   "scripts": {
-    "dev": "npm run build-sass",
-    "dev2": "npm run build-sass-no-comment",
-    "prod": "npm run build-sass-p",
-    "build-sass-no-comment": "node-sass -w --include-path scss scss/main.scss public/css/main.css",
-    "build-sass": "node-sass --source-comments -w --include-path scss scss/main.scss public/css/main.css",
-    "build-sass-p": "node-sass -w --include-path scss scss/main.scss public/css/main.css --output-style compressed",
-    "watch-sass": "nodemon -e scss -x \" npm run build-sass \""
-  },
+	 "build-css": "node-sass --include-path scss scss/main.scss public/css/main.css",
+	 "watch-css": "nodemon -e scss -x \"npm run build-css\""
+	},
   "keywords": [
     "Sass",
     "to",
@@ -20,7 +15,7 @@
   "author": "Naresh",
   "license": "MIT",
   "devDependencies": {
-    "node-sass": "*",
+    "node-sass": "^4.12.0",
     "nodemon": "*"
   }
 }
