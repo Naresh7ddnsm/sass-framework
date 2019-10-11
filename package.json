@@ -4,9 +4,9 @@
   "description": "Simple Sass Compiler",
   "main": "index.js",
   "scripts": {
-	 "build-css": "node-sass --include-path scss scss/main.scss public/css/main.css",
-	 "watch-css": "nodemon -e scss -x \"npm run build-css\""
-	},
+    "build-css": "node-sass --include-path scss scss/main.scss public/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
   "keywords": [
     "Sass",
     "to",
