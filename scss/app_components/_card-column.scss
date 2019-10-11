@@ -1,0 +1,17 @@
+.card-column{
+	.thumbnail{
+		margin-bottom: rem(15px);
+	}
+	.card-title{
+		font-weight: $wb;
+		margin-bottom: rem(5px);
+	}
+	a{
+		text-decoration: none;
+		color: $link-color-black;
+	}
+	p{
+		@include font-size(14px);
+		color: #666;
+	}
+}

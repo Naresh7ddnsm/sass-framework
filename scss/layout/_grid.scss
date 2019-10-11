@@ -17,6 +17,7 @@
 		.grid-#{$point}-#{$i} {
 			@extend %grid-column;
 		}
+		
 	}
 	$min : map-get($grid-breakpoints, $point);
 	$media : "screen";

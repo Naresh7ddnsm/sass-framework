@@ -1,0 +1,17 @@
+.thumbnail{
+	max-width: 100%;
+}
+.media{
+	margin-bottom: rem(15px);
+}
+.full-card-link{
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+@import "card-row";
+@import "card-column";
+@import "card-02";
